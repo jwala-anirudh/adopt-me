@@ -1,0 +1,23 @@
+{
+  "name": "adopt-me",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{js,jsx}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anirudh-jwala/adopt-me.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anirudh-jwala/adopt-me/issues"
+  },
+  "homepage": "https://github.com/anirudh-jwala/adopt-me#readme",
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  }
+}
