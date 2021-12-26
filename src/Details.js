@@ -4,12 +4,14 @@ import { withRouter } from "react-router-dom";
 class Details extends Component {
   constructor() {
     super(); // important & necessary
-
     // useState()
     this.state = {
       loading: true,
     };
   }
+
+  // New way of writing
+  // state = { loading: false };
 
   // useEffect()
   async componentDidMount() {
