@@ -153,6 +153,7 @@ header {
 .carousel > img {
   max-width: 45%;
   max-height: 400px;
+  border-radius: 2%;
 }
 
 .carousel-smaller {
