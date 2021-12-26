@@ -25,7 +25,7 @@ class Details extends Component {
   // useEffect()
   async componentDidMount() {
     const res = await fetch(
-      `http://pets-v2.dev-apis.com/pets?id=${this.props.match.params.id}`
+      `https://pets-v2.dev-apis.com/pets?id=${this.props.match.params.id}`
     );
     const json = await res.json();
 
@@ -41,7 +41,7 @@ class Details extends Component {
 
   toggleModal = () => this.setState({ showModal: !this.state.showModal });
 
-  adoptThePet = () => window.open("http://bit.ly/pet-adopt", "_blank");
+  adoptThePet = () => window.open("https://bit.ly/pet-adopt", "_blank");
 
   render() {
     if (this.state.loading) {
